@@ -1,4 +1,4 @@
-package d.d.steps;
+package d.ui.steps;
 
 import org.junit.Assert;
 

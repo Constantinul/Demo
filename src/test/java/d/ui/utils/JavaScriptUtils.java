@@ -1,4 +1,4 @@
-package d.d.utils;
+package d.ui.utils;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

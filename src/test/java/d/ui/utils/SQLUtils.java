@@ -1,4 +1,4 @@
-package d.d.utils;
+package d.ui.utils;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
-import d.d.utils.Constants.DatabaseCredentials;
+import d.ui.utils.Constants.DatabaseCredentials;
 
 public class SQLUtils {
 

@@ -1,4 +1,4 @@
-package d.d.utils;
+package d.ui.utils;
 
 import java.awt.AWTException;
 import java.awt.Robot;

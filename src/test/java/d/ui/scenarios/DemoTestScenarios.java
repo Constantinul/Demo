@@ -1,4 +1,4 @@
-package d.d.scenarios;
+package d.ui.scenarios;
 
 import net.thucydides.core.annotations.StepGroup;
 

@@ -1,4 +1,4 @@
-package d.d.utils;
+package d.ui.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,7 +19,7 @@ import org.junit.Assert;
 
 import au.com.bytecode.opencsv.CSVReader;
 import bad.robot.excel.matchers.WorkbookMatcher;
-import d.d.utils.Constants.FilesLocation;
+import d.ui.utils.Constants.FilesLocation;
 
 public class FileUtils {
 

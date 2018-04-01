@@ -1,6 +1,6 @@
-package d.d.scenarios;
+package d.ui.scenarios;
 
-import d.d.steps.DemoSteps;
+import d.ui.steps.DemoSteps;
 import net.thucydides.core.annotations.Steps;
 
 public class BaseScenarios {

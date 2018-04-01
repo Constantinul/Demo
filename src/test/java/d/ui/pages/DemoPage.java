@@ -1,4 +1,4 @@
-package d.d.pages;
+package d.ui.pages;
 
 import org.openqa.selenium.WebElement;
 

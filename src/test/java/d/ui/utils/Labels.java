@@ -1,4 +1,4 @@
-package d.d.utils;
+package d.ui.utils;
 
 public class Labels {
 

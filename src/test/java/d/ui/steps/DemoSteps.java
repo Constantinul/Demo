@@ -1,6 +1,6 @@
-package d.d.steps;
+package d.ui.steps;
 
-import d.d.pages.DemoPage;
+import d.ui.pages.DemoPage;
 import net.thucydides.core.annotations.Step;
 
 public class DemoSteps extends BaseSteps {

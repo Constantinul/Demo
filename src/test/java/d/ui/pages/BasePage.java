@@ -1,4 +1,4 @@
-package d.d.pages;
+package d.ui.pages;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,10 +13,10 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import d.d.utils.Constants;
-import d.d.utils.FileUtils;
-import d.d.utils.JavaScriptUtils;
-import d.d.utils.SikuliUtils;
+import d.ui.utils.Constants;
+import d.ui.utils.FileUtils;
+import d.ui.utils.JavaScriptUtils;
+import d.ui.utils.SikuliUtils;
 import net.serenitybdd.core.annotations.findby.By;
 import net.thucydides.core.pages.PageObject;
 
