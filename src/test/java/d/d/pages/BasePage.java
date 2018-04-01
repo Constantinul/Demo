@@ -22,7 +22,7 @@ import net.thucydides.core.pages.PageObject;
 
 public class BasePage extends PageObject {
 
-	public boolean isImagePresentOnScreenWithScreenshotCreation(String filePath) {
+	public boolean verifyImageIsPresent(String filePath) {
 		boolean isPresent = false;
 		int waitForImageToAppear = 0;
 		// waits for max of 10 seconds for the screenshot to appear
@@ -37,7 +37,7 @@ public class BasePage extends PageObject {
 		return isPresent;
 	}
 
-	public boolean isImagePresentOnScreenWithScreenshotCreation(String filePath, double similarity) {
+	public boolean verifyImageIsPresent(String filePath, double similarity) {
 		boolean isPresent = false;
 		int waitForImageToAppear = 0;
 		// waits for max of 10 seconds minute for the screenshot to appear

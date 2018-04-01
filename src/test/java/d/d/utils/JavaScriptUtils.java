@@ -10,7 +10,7 @@ public class JavaScriptUtils {
 
 	public static String getElementId(String js, WebDriver driver) {
 		jx = (JavascriptExecutor) driver;
-		String id = (String) jx.executeScript(Constants.RETURN + js);
+		String id = (String) jx.executeScript("return " + js);
 		return id;
 	}
 

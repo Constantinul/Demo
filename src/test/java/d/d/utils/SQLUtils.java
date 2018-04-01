@@ -9,7 +9,6 @@ import java.sql.SQLException;
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
 import d.d.utils.Constants.DatabaseCredentials;
-import d.d.utils.Constants.Environments;
 
 public class SQLUtils {
 
@@ -123,20 +122,10 @@ public class SQLUtils {
 
 	private static void setConnectionParameters(String env) {
 		switch (env) {
-		case Environments.QA01:
+		case "QA01":
 			sqlDataSource.setURL(DatabaseCredentials.QA01_URL);
 			sqlDataSource.setUser(DatabaseCredentials.QA01_USER);
 			sqlDataSource.setPassword(DatabaseCredentials.QA01_PASSWORD);
-			break;
-		case Environments.QA02:
-			sqlDataSource.setURL(DatabaseCredentials.QA02_URL);
-			sqlDataSource.setUser(DatabaseCredentials.QA02_USER);
-			sqlDataSource.setPassword(DatabaseCredentials.QA02_PASSWORD);
-			break;
-		case Environments.DEV:
-			sqlDataSource.setURL(DatabaseCredentials.DEV_URL);
-			sqlDataSource.setUser(DatabaseCredentials.DEV_USER);
-			sqlDataSource.setPassword(DatabaseCredentials.DEV_PASSWORD);
 			break;
 		}
 	}

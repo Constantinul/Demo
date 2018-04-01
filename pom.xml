@@ -39,10 +39,6 @@
 				<updatePolicy>always</updatePolicy>
 			</snapshots>
 		</repository>
-		<!-- <repository> -->
-		<!-- <id>sonatype-nexus-snapshots</id> -->
-		<!-- <url>https://oss.sonatype.org/content/repositories/snapshots</url> -->
-		<!-- </repository> -->
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -101,6 +97,23 @@
 			<version>1.0</version>
 			<scope>compile</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.mashape.unirest</groupId>
+			<artifactId>unirest-java</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<!-- for running tests via VPN -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.browserstack</groupId> -->
+<!-- 			<artifactId>browserstack-local-java</artifactId> -->
+<!-- 			<version>1.0.2</version> -->
+<!-- 		</dependency> -->
+		
 	</dependencies>
 	<build>
 		<plugins>
@@ -152,7 +165,8 @@
 				<executions>
 					<execution>
 						<id>serenity-reports</id>
-						<phase>post-integration-test</phase>
+<!-- 						will be performed on demand -->
+<!-- 						<phase>test</phase> -->
 						<goals>
 							<goal>aggregate</goal>
 						</goals>
