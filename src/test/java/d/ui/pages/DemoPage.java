@@ -6,11 +6,15 @@ import net.serenitybdd.core.annotations.findby.By;
 
 public class DemoPage extends BasePage {
 
-	public void clickOnSomething() {
+	public void navigateToPage() {
 		getDriver().get("https://www.google.com/");
-		WebElement elem = getDriver().findElement(By.cssSelector(""));
+	}
+
+	public void clickOnImFeelingLucky() {
+		WebElement elem = getDriver().findElement(By.cssSelector("input[value=\"I'm Feeling Lucky\"]"));
 		element(elem).waitUntilVisible();
 		elem.click();
+		waitABit(3000);
 	}
 
 }

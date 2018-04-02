@@ -6,7 +6,8 @@ public class DemoTestScenarios extends BaseScenarios {
 
 	@StepGroup
 	public void demoScenario() {
-		demoSteps.clickOnSomething();
+		demoSteps.navigateToPage();
+		demoSteps.clickOnImFeelingLucky();
 	}
 
 }

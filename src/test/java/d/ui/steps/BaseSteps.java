@@ -2,8 +2,9 @@ package d.ui.steps;
 
 import d.ui.pages.BasePage;
 import net.thucydides.core.annotations.Step;
+import net.thucydides.core.steps.ScenarioSteps;
 
-public class BaseSteps {
+public class BaseSteps extends ScenarioSteps {
 
 	public BasePage basePage;
 

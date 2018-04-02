@@ -13,8 +13,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<serenity.version>1.8.3</serenity.version>
-		<webdriver.driver>firefox</webdriver.driver>
+		<serenity.version>1.9.4</serenity.version>
+		<webdriver.driver>chrome</webdriver.driver>
 	</properties>
 
 	<repositories>
@@ -30,15 +30,15 @@
 			<id>sonatype-ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 		</repository>
-		<repository>
-			<id>bad.robot</id>
-			<name>bad.robot repository on robotooling</name>
-			<url>http://www.robotooling.com/maven/</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
+<!-- 		<repository> -->
+<!-- 			<id>bad.robot</id> -->
+<!-- 			<name>bad.robot repository on robotooling</name> -->
+<!-- 			<url>http://www.robotooling.com/maven/</url> -->
+<!-- 			<snapshots> -->
+<!-- 				<enabled>true</enabled> -->
+<!-- 				<updatePolicy>always</updatePolicy> -->
+<!-- 			</snapshots> -->
+<!-- 		</repository> -->
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -91,12 +91,12 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.14</version>
 		</dependency>
-		<dependency>
-			<groupId>bad.robot</groupId>
-			<artifactId>simple-excel</artifactId>
-			<version>1.0</version>
-			<scope>compile</scope>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>bad.robot</groupId> -->
+<!-- 			<artifactId>simple-excel</artifactId> -->
+<!-- 			<version>1.0</version> -->
+<!-- 			<scope>compile</scope> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>com.mashape.unirest</groupId>
 			<artifactId>unirest-java</artifactId>
